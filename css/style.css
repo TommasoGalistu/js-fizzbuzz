@@ -17,7 +17,7 @@ main h1{
 }
 
 
-div[class*='col']{
+div[class*='col-']{
     height: 6rem;
     width: 6rem;
     display: flex;
@@ -38,23 +38,23 @@ div[class*='col']{
     padding: 1rem 0;
 }
 
-.normale{
+.col-normale{
     background-color: #1389b2;
     color: white;
     
 }
 
-.fizz{
+.col-fizz{
     background-color: #0cd6a1;
     
     
 }
-.buzz{
+.col-buzz{
     background-color: #ffd166;
     
     
 }
-.fizz-buzz{
+.col-fizz-buzz{
     background-color: #f0466f;
     
     
