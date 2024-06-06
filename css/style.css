@@ -14,6 +14,7 @@ main{
 main h1{
     font-size: 3rem;
     color: white;
+    
 }
 
 
@@ -36,6 +37,8 @@ div[class*='col-']{
     justify-content: center;
     gap: 1rem;
     padding: 1rem 0;
+    width: 60%;
+    margin:auto;
 }
 
 .col-normale{
