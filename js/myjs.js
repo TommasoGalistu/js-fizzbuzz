@@ -10,17 +10,24 @@ for(let i = 1; i <= 100; i++){
     let progressivo = i
     
     if(i % 3 === 0 && i % 5 === 0){
-        progressivo = 'FizzBuzz'
+        progressivo = 'FizzBuzz';
+
     } else if(i % 5 === 0){
-         progressivo = 'Buzz'
+         progressivo = 'Buzz';
+
     } else if(i % 3 === 0){
-        progressivo = 'Fizz'
+        progressivo = 'Fizz';
+
     }
+    // risultato primo esercizio
     console.log(progressivo)
 
     // creazione di un nodo div
     let card = document.createElement('div')
+
+    // inserimento di testo all'interno del nodo
     card.append(progressivo)
+
     // aggiunta della classe al nodo
     if(progressivo === 'Fizz'){
         card.classList.add('col-fizz');
@@ -35,5 +42,5 @@ for(let i = 1; i <= 100; i++){
     }
     
 
-    genitore.append(card)
+    genitore.append(card);
 }
