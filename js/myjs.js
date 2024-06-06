@@ -9,12 +9,12 @@ let genitore = document.querySelector('.row')
 for(let i=1; i <= 100; i++){
     let progressivo = i
     
-    if(i % 3 === 0 && i % 5 !== 0){
-        progressivo = 'Fizz'
-    } else if(i % 5 === 0 && i % 3 !== 0){
-         progressivo = 'Buzz'
-    } else if(i % 3 === 0 && i % 5 === 0){
+    if(i % 3 === 0 && i % 5 === 0){
         progressivo = 'FizzBuzz'
+    } else if(i % 5 === 0){
+         progressivo = 'Buzz'
+    } else if(i % 3 === 0){
+        progressivo = 'Fizz'
     }
     console.log(progressivo)
 
