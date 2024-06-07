@@ -26,11 +26,11 @@ for(let i = 1; i <= 100; i++){
     }
 
     // risultato primo esercizio
-    console.log(progressivo)
+    console.log(progressivo);
 
 
     // inserimento di testo all'interno del nodo
-    card.append(progressivo)
+    card.append(progressivo);
 
     genitore.append(card);
 }
